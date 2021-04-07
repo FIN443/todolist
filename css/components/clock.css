@@ -1,0 +1,9 @@
+.js-clock {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 64px;
+  margin-top: 150px;
+}
+
+.js-clock h1 {
+  color: khaki;
+}
