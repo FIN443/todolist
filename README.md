@@ -1,2 +1,2 @@
 # ToDoList
-Make ToDoList use VanillaJS
+Making ToDoList with VanillaJS
