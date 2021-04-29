@@ -6,9 +6,9 @@ const IMG_NUMBER = 3;
 //   console.log("finished loading");
 // }
 
-function paintImage(imgNumber) {
+function paintImage() {
   const image = new Image();
-  image.src = `images/${imgNumber + 1}.jpg`;
+  image.src = `images/bg1.jpg`;
   image.classList.add("bgImage");
   body.appendChild(image);
   //   image.addEventListener("loadend", handleImgLoad);
@@ -20,8 +20,8 @@ function genRandom() {
 }
 
 function init() {
-  const randomNumber = genRandom();
-  paintImage(randomNumber);
+  // const randomNumber = genRandom();
+  paintImage();
 }
 
 init();

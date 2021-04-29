@@ -1,0 +1,33 @@
+/* Default */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/clock.css";
+@import "components/list.css";
+@import "components/weather.css";
+
+/* Screens */
+@import "screens/index.css";
+
+/* Animations */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+input {
+  width: 220px;
+}
+
+input::placeholder {
+  text-align: center;
+}
