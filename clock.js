@@ -7,6 +7,7 @@ const clockContainer = document.querySelector(".js-clock"),
 function getTime() {
   // date 객체 생성
   const date = new Date();
+  date.setSeconds(date.getSeconds() + 1);
   const minutes = date.getMinutes();
   const hours = date.getHours();
   const seconds = date.getSeconds();
@@ -87,11 +88,11 @@ function updateClock() {
 
 function init() {
   getTime();
+  setInterval(getTime, 1000);
   paintCircleLine();
   paintClockNumber();
   updateClock();
   // 함수 동작시간 설정
-  setInterval(getTime, 1000);
 }
 
 init();
