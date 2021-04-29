@@ -8,30 +8,40 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="clock__container">
-      <div class="clock__circle1"></div>
-      <div class="clock__circle2"></div>
-      <div class="clock__circle3"></div>
-      <div class="clock__hour-hand">
-        <div class="clock__white-space"></div>
+    <div class="screen1">
+      <div class="clock__container">
+        <div class="clock__circle1"></div>
+        <div class="clock__circle2"></div>
+        <div class="clock__circle3"></div>
+        <div class="clock__hour-hand">
+          <div class="clock__white-space"></div>
+        </div>
+        <div class="clock__minute-hand">
+          <div class="clock__white-space"></div>
+        </div>
+        <div class="clock__second-hand"></div>
+        <div class="clock__center"></div>
       </div>
-      <div class="clock__minute-hand">
-        <div class="clock__white-space"></div>
+      <div class="js-clock showing">
+        <h1>00:00</h1>
       </div>
-      <div class="clock__second-hand"></div>
-      <div class="clock__center"></div>
     </div>
-    <div class="js-clock showing">
-      <h1>00:00</h1>
+
+    <div class="screen2">
+      <div class="screen2__user">
+        <form class="js-form form showing" action="">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="js-greetings greetings showing"></h4>
+      </div>
+      <div class="screen2__todolist">
+        <form class="js-toDoForm showing">
+          <input type="text" placeholder="Write a to do" />
+        </form>
+        <ul class="js-toDoList"></ul>
+      </div>
     </div>
-    <form class="js-form form showing" action="">
-      <input type="text" placeholder="What is your name?" />
-    </form>
-    <h4 class="js-greetings greetings showing"></h4>
-    <form class="js-toDoForm showing">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList showing"></ul>
+
     <div class="weather">
       <span class="js-weather"> </span>
     </div>

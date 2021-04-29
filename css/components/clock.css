@@ -6,6 +6,7 @@
 
 .js-clock h1 {
   color: rgb(238, 236, 223);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .clock__container {
