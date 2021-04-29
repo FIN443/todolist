@@ -19,7 +19,7 @@ Making ToDoList with VanillaJS
 
 ## Design
 
-- [ ] Clock
+- [x] Clock
 - [ ] Username Persistance
 - [ ] To Do List
 - [ ] Background Image
