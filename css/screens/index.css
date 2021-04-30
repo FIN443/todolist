@@ -2,17 +2,24 @@
 .screen2 {
   display: flex;
   flex-direction: column;
-  margin: 0 50px;
+  margin: 0 20px;
 }
 
 .screen1 {
   justify-content: center;
+  margin-bottom: 50px;
+}
+
+.screen2 {
+  margin-bottom: 100px;
 }
 
 .screen2__user {
+  position: relative;
   display: flex;
   flex-direction: column;
   height: 45%;
+  align-items: center;
   justify-content: flex-end;
 }
 

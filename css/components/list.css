@@ -8,30 +8,74 @@
 }
 
 .js-greetings {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  position: absolute;
   font-size: 40px;
   color: white;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  bottom: 25px;
+}
+
+.js-form input {
+  position: absolute;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 253, 245, 0.877);
+  width: 170px;
+  height: 40px;
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-size: 20px;
+  text-align: center;
+  bottom: 25px;
+}
+
+.js-form input:focus {
+  outline: none;
 }
 
 .js-toDoForm {
   margin-bottom: 20px;
 }
 
+.js-toDoForm input {
+  outline: none;
+  border: none;
+  background-color: rgba(255, 253, 245, 0.877);
+  width: 250px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 5px 20px;
+}
+
+.js-toDoForm input:focus {
+  outline: none;
+}
+
 .js-toDoList {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: center;
 }
 
 .js-toDoList li {
-  width: 250px;
+  display: flex;
+  align-items: flex-start;
+  width: 400px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.4;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-bottom: 10px;
 }
 
 .js-toDoList li > button {
-  margin-right: 20px;
-  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.js-toDoList li > span {
+  word-break: break-all;
+  text-decoration: none;
 }

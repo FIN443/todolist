@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 3;
+const IMG_NUMBER = 4;
 
 // function handleImgLoad() {
 //   console.log("finished loading");
@@ -8,14 +8,14 @@ const IMG_NUMBER = 3;
 
 function paintImage() {
   const image = new Image();
-  image.src = `images/bg1.jpg`;
+  image.src = `images/bg${genRandom()}.jpg`;
   image.classList.add("bgImage");
   body.appendChild(image);
   //   image.addEventListener("loadend", handleImgLoad);
 }
 
 function genRandom() {
-  const number = Math.floor(Math.random() * IMG_NUMBER);
+  const number = Math.floor(Math.random() * IMG_NUMBER) + 1;
   return number;
 }
 
