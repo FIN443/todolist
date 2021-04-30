@@ -2,11 +2,16 @@
 .screen2 {
   display: flex;
   flex-direction: column;
-  margin: 0 50px;
+  margin: 0 70px;
 }
 
 .screen1 {
   justify-content: center;
+  margin-bottom: 50px;
+}
+
+.screen2 {
+  margin-bottom: 100px;
 }
 
 .screen2__user {

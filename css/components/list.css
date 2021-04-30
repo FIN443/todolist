@@ -20,18 +20,28 @@
 }
 
 .js-toDoList {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
   flex-direction: column;
   align-items: center;
 }
 
 .js-toDoList li {
-  width: 250px;
+  display: flex;
+  align-items: flex-start;
+  width: 400px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.4;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-bottom: 10px;
 }
 
 .js-toDoList li > button {
   margin-right: 20px;
-  margin-bottom: 10px;
+}
+
+.js-toDoList li > span {
+  word-break: break-all;
 }
