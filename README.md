@@ -10,8 +10,8 @@ Making ToDoList with VanillaJS
 - [ ] To Do List
   - [ ] Weekly
   - [x] Add Todo
-  - [ ] Pending
-  - [ ] Finished
+  - [x] Pending
+  - [x] Finished
   - [x] Delete
   - [ ] Set D-Day
 - [x] Random Background Image
@@ -20,7 +20,7 @@ Making ToDoList with VanillaJS
 ## Design
 
 - [x] Clock
-- [ ] Username Persistance
-- [ ] To Do List
-- [ ] Background Image
-- [ ] Weather
+- [x] Username Persistance
+- [x] To Do List
+- [x] Background Image
+- [x] Weather
