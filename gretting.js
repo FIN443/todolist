@@ -33,7 +33,7 @@ function paintGreeting(text) {
   // h4 -> display: block
   greeting.classList.add(SHOWING_CN);
   // h4 텍스트 부여
-  greeting.innerText = `Hello ${text}`;
+  greeting.innerText = `안녕하세요 ${text} 님`;
 }
 
 function loadName() {
